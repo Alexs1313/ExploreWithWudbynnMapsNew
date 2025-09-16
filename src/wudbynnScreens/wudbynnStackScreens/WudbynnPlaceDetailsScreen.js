@@ -8,12 +8,12 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import Layout from '../../components/Layout';
-import GradientBordersContainer from '../../components/GradientBordersContainer';
+import Layout from '../../wudbynnComponents/Layout';
+import GradientBordersContainer from '../../wudbynnComponents/GradientBordersContainer';
 import LinearGradient from 'react-native-linear-gradient';
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
-import GradientBtnS from '../../components/GradientBtnS';
-import { useStore } from '../../store/context';
+import GradientBtnS from '../../wudbynnComponents/GradientBtnS';
+import { useStore } from '../../wudbynnStore/wudbynnContext';
 import { useCallback, useEffect, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import MapView, { Marker, Polyline } from 'react-native-maps';

@@ -2,18 +2,17 @@ import {
   Dimensions,
   Image,
   Platform,
-  Share,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
 } from 'react-native';
-import Layout from '../../components/Layout';
-import GradientBordersContainer from '../../components/GradientBordersContainer';
+import Layout from '../../wudbynnComponents/Layout';
+import GradientBordersContainer from '../../wudbynnComponents/GradientBordersContainer';
 import { useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import LinearGradient from 'react-native-linear-gradient';
-import WelcomeGradientButton from '../../components/WelcomeGradientButton';
+import WelcomeGradientButton from '../../wudbynnComponents/WelcomeGradientButton';
 
 const { height } = Dimensions.get('window');
 

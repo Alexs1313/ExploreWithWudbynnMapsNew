@@ -1,10 +1,10 @@
 import { Dimensions, Image, StyleSheet, Text, View } from 'react-native';
-import Layout from '../../components/Layout';
+import Layout from '../../wudbynnComponents/Layout';
 
-import GradientBordersContainer from '../../components/GradientBordersContainer';
+import GradientBordersContainer from '../../wudbynnComponents/GradientBordersContainer';
 
 import { useState } from 'react';
-import WelcomeGradientButton from '../../components/WelcomeGradientButton';
+import WelcomeGradientButton from '../../wudbynnComponents/WelcomeGradientButton';
 import { useNavigation } from '@react-navigation/native';
 import { Shadow } from 'react-native-shadow-2';
 

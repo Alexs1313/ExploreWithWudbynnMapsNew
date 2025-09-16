@@ -7,14 +7,14 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import Layout from '../../components/Layout';
-import GradientBordersContainer from '../../components/GradientBordersContainer';
+import Layout from '../../wudbynnComponents/Layout';
+import GradientBordersContainer from '../../wudbynnComponents/GradientBordersContainer';
 import LinearGradient from 'react-native-linear-gradient';
 import { useNavigation } from '@react-navigation/native';
-import GradientBtnS from '../../components/GradientBtnS';
+import GradientBtnS from '../../wudbynnComponents/GradientBtnS';
 import { useEffect, useState } from 'react';
 import LottieView from 'lottie-react-native';
-import { WUDBYNN_PLACES } from '../../data/wudbynnPlaces';
+import { WUDBYNN_PLACES } from '../../wudbynnData/wudbynnPlaces';
 
 const { height } = Dimensions.get('window');
 

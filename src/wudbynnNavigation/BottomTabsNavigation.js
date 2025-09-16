@@ -1,9 +1,9 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Image, Platform, StyleSheet, View } from 'react-native';
-import WudbynnHomeScreen from '../screens/tab/WudbynnHomeScreen';
-import WudbynnPlacesScreen from '../screens/tab/WudbynnPlacesScreen';
-import WudbynnSavedScreen from '../screens/tab/WudbynnSavedScreen';
-import WudbynnMapScreen from '../screens/tab/WudbynnMapScreen';
+import WudbynnHomeScreen from '../wudbynnScreens/wudbynnTabScreens/WudbynnHomeScreen';
+import WudbynnPlacesScreen from '../wudbynnScreens/wudbynnTabScreens/WudbynnPlacesScreen';
+import WudbynnSavedScreen from '../wudbynnScreens/wudbynnTabScreens/WudbynnSavedScreen';
+import WudbynnMapScreen from '../wudbynnScreens/wudbynnTabScreens/WudbynnMapScreen';
 import LinearGradient from 'react-native-linear-gradient';
 
 const Tab = createBottomTabNavigator();

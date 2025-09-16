@@ -1,10 +1,10 @@
 import { createStackNavigator } from '@react-navigation/stack';
 import BottomTabsNavigation from './BottomTabsNavigation';
-import WelcomeScreen from '../screens/stack/WelcomeScreen';
-import StartWudbynnQuizScreen from '../screens/stack/StartWudbynnQuizScreen';
-import WudbynnGameplayScreen from '../screens/stack/WudbynnGameplayScreen';
-import WudbynnRecommendedPlaces from '../screens/stack/WudbynnRecommendedPlaces';
-import WudbynnPlaceDetailsScreen from '../screens/stack/WudbynnPlaceDetailsScreen';
+import WelcomeScreen from '../wudbynnScreens/wudbynnStackScreens/WelcomeScreen';
+import StartWudbynnQuizScreen from '../wudbynnScreens/wudbynnStackScreens/StartWudbynnQuizScreen';
+import WudbynnGameplayScreen from '../wudbynnScreens/wudbynnStackScreens/WudbynnGameplayScreen';
+import WudbynnRecommendedPlaces from '../wudbynnScreens/wudbynnStackScreens/WudbynnRecommendedPlaces';
+import WudbynnPlaceDetailsScreen from '../wudbynnScreens/wudbynnStackScreens/WudbynnPlaceDetailsScreen';
 
 const Stack = createStackNavigator();
 

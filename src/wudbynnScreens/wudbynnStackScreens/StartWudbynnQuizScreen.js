@@ -6,10 +6,10 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import Layout from '../../components/Layout';
-import GradientBordersContainer from '../../components/GradientBordersContainer';
+import Layout from '../../wudbynnComponents/Layout';
+import GradientBordersContainer from '../../wudbynnComponents/GradientBordersContainer';
 import LinearGradient from 'react-native-linear-gradient';
-import WelcomeGradientButton from '../../components/WelcomeGradientButton';
+import WelcomeGradientButton from '../../wudbynnComponents/WelcomeGradientButton';
 import { useNavigation } from '@react-navigation/native';
 
 const { height } = Dimensions.get('window');

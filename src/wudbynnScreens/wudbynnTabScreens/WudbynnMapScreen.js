@@ -6,10 +6,10 @@ import {
   Text,
   View,
 } from 'react-native';
-import Layout from '../../components/Layout';
+import Layout from '../../wudbynnComponents/Layout';
 import LinearGradient from 'react-native-linear-gradient';
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
-import { WUDBYNN_PLACES } from '../../data/wudbynnPlaces';
+import { WUDBYNN_PLACES } from '../../wudbynnData/wudbynnPlaces';
 import MapView, { Marker } from 'react-native-maps';
 import Orientation from 'react-native-orientation-locker';
 import { useCallback } from 'react';

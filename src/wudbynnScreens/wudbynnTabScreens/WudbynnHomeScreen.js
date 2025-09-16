@@ -7,9 +7,9 @@ import {
   Text,
   View,
 } from 'react-native';
-import Layout from '../../components/Layout';
-import GradientBordersContainer from '../../components/GradientBordersContainer';
-import GradientBtnS from '../../components/GradientBtnS';
+import Layout from '../../wudbynnComponents/Layout';
+import GradientBordersContainer from '../../wudbynnComponents/GradientBordersContainer';
+import GradientBtnS from '../../wudbynnComponents/GradientBtnS';
 import { useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 
